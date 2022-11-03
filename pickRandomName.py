@@ -11,8 +11,6 @@ def createNamesList():
             namesList.append(line)
         else: 
             break
-    print("The names to choose from are")
-    for x in namesList: print(x)
 
 def randomName(names):
     randomIndex = random.randint(0,len(names)-1)
