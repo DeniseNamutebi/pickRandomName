@@ -14,9 +14,3 @@ randomIndex = random.randint(0,len(namesList)-1)
 print("The person picked is " + namesList[randomIndex])
 
 
-#This concatinates the names in the list
-# print("The names list is " + " ".join(namesList))   
-
-#This accepts mutiple inputs and assigns them individual variables
-# name1, name2 = input('Enter the first names ').split()
-# print('The names to pick from are ' + name1 + ' ' + name2)
